@@ -17,7 +17,7 @@ $cat1->firstname = "Tom";
 $cat1->lastname = "Baret";
 print "The Cat's name is {$cat1->getName()}.";
 
-////////////
+//The Cat's name is Tom Baret 
 
 class Bat {
 
@@ -37,7 +37,7 @@ $bat1->firstname = "Bat";
 $bat1->lastname = "Man";
 print "The Bat's name is {$Bat1->getName()}.";
 
-///////////
+//the Bat's name is Bat Man
 
 class Person {
 
@@ -58,4 +58,4 @@ $person1->lastname = "Man";
 print "The Person's name is {$person1->getName()}.";
 
 
-
+//the Person's name is Iron Man
