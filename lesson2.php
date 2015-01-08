@@ -1,5 +1,5 @@
 <?php
-//---EXAMPLE 1
+//------EXAMPLE 1
 class Person {
 	public $firstName = "Austin";
 	public $lastName = "Juntra";
@@ -15,35 +15,41 @@ class Bat {
 	public $lastName = "Man";
 	public $gender = "Male";
 
-//---EXAMPLE 2
+//-------EXAMPLE 2
 
-function __construct($title, $firstName, $lastName, $gender) {
+function __construct($title, $firstName, $middleName, $lastName, $gender) {
 	$this>
 		firstName = $firstName;
+	$this>
+		middleName = $middleName;
+	$this>
+		lastName = $lastName;
+	$this>
+		gender = $gender;
+}
+
+function __construct($title, $firstName, $middleName, $lastName, $gender) {
+	$this>
+		firstName = $firstName;
+	$this>
+		middleName = $middleName;
+	$this>
+		lastName = $lastName;
+	$this>
+		gender = $gender;
+}
+function __construct($title, $firstName, $middleName, $lastName, $gender) {
+	$this>
+		firstName = $firstName;
+	$this>
+		middleName = $middleName;
 	$this>
 		lastName = $lastName;
 	$this>
 		gender = $gender;
 }
 
-function __construct($title, $firstName, $lastName, $gender) {
-	$this>
-		firstName = $firstName;
-	$this>
-		lastName = $lastName;
-	$this>
-		gender = $gender;
-}
-function __construct($title, $firstName, $lastName, $gender) {
-	$this>
-		firstName = $firstName;
-	$this>
-		lastName = $lastName;
-	$this>
-		gender = $gender;
-}
-
-//---EXAMPLE 3
+//------EXAMPLE 3
 function getName() {
 	return “{$this->firstName}” .
 	“{$this->lastName}”;
@@ -68,7 +74,7 @@ function getName() {
 }
 }
 
-//---EXAMPLE 4
+//------EXAMPLE 4
 
 $Cat1 = new Cat(“To”, “Bart”, “Female”);
 print “Cat 1: {$Cat1->getName()}\n;
