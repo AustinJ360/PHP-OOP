@@ -2,6 +2,7 @@
 //------EXAMPLE 1
 class Person {
 	public $firstName = "Austin";
+	public $middleName = "AJ";
 	public $lastName = "Juntra";
 	public $gender = "Male";
 
