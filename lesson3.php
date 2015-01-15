@@ -13,12 +13,12 @@ else{
 echo 'I am not Austin';
 var_dump(is_null('XYZ');
 var_dump(is_string('8008');
-var_dump(is_integer(123);
+var_dump(is_integer(321);
 var_dump(is_bool(false);
 }
 else{
 echo 'Good Bye people';
-var_dump(is_null('XYZ');
+var_dump(is_null('ZXY');
 var_dump(is_string('8008');
 var_dump(is_integer(123);
 var_dump(is_bool(false);
@@ -26,7 +26,7 @@ var_dump(is_bool(false);
 
 else{
 echo 'Sunshine';
-var_dump(is_null('XYZ');
+var_dump(is_null('MKY');
 var_dump(is_string('8008');
 var_dump(is_integer(123);
 var_dump(is_bool(false);

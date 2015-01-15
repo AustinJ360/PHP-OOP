@@ -19,13 +19,13 @@ class Bat {
 //-------EXAMPLE 2
 
 function __construct($title, $firstName, $middleName, $lastName, $gender) {
-	$this>
+	$this->
 		firstName = $firstName;
-	$this>
+	$this->
 		middleName = $middleName;
-	$this>
+	$this->
 		lastName = $lastName;
-	$this>
+	$this->
 		gender = $gender;
 }
 
@@ -70,7 +70,7 @@ function getName() {
 }
 
 function getName() {
-	return “{$this->firstName}” .
+	return $this->firstName .
 	“{$this->lastName}”;
 }
 }
@@ -78,10 +78,10 @@ function getName() {
 //------EXAMPLE 4
 
 $Cat1 = new Cat(“To”, “Bart”, “Female”);
-print “Cat 1: {$Cat1->getName()}\n;
+print “Cat 1: $Cat1->getName()\n;
 
 $Bat1 = new Bat(“Kyle”, “Floral”, “Male”);
-print “Bat 1: {$Bat1->getName()}\n;
+print “Bat 1: $Bat1->getName()\n;
 
 $Person1 = new Person(“Austin”, “Juntra”, “Male”);
-print “Person 1: {$Person1->getName()}\n;
+print “Person 1: $Person1->getName()\n;
